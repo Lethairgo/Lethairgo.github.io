@@ -3,8 +3,8 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
+$buttonColor: #1A30BE;
+$buttonHover: #5063E2;
 $topButtonHover: #000;
 
 // text colors light theme
@@ -49,12 +49,12 @@ $darkBoxShadow2: #ffffff;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.2)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.5)
 );
 
 // borders

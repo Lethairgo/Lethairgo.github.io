@@ -100,9 +100,11 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
 .experience-text-date {
   text-align: center;
   color: $textColor;
@@ -112,6 +114,20 @@
   font-weight: 600;
 }
 
+.experience-text-website {
+  text-align: center;
+  color: $textColor;
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .experience-text-desc {
   text-align: center;
 }
@@ -119,6 +135,16 @@
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+}
+
+.experience-roundedimg.guanjia {
+  object-fit: cover;
+  object-position: left;
+}
+
+.experience-roundedimg.hisun {
+  object-fit: cover;
+  object-position: left;
 }
 
 /* Media Query */
